@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PASICHAYENNAVANDHUKELU -LOGIN</title>
+        
+        <style>
+            /*  backgroundcolour appro font colour pakalm*/
+            body{
+                background-color: #79756f;
+                color: #333;
+                font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0   ;
+
+            }
+
+            /* login ha design pannalam ma*/
+            .login-continer{
+                background-color: #506da1;
+                padding: 30px;
+                border-radius: 15px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 450px;
+                text-align: center;
+            }
+                /* heading ha design pannalam */
+            h1{
+                margin-bottom: 20px;
+                color: #f80707;
+            }
+            h2{
+                margin-bottom: 20px;
+                font-size: 1.2rem;
+                color: #080808;
+            }
+            /* input fields ha design pannalam */
+            input{
+                width: 90%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+            /* button ha design pannalam */
+            button{
+                background-color: #e67e22;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 100%;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            button:hover{
+                background-color: #b88e1c;
+            }
+            label{
+                font-weight: bold;
+                display: block;
+                text-align: left;
+                margin-left: 5px;
+                color: #555;
+            }
+        </style>
+    </head>
+    
+        
+    
+    <body>
+        <div class="login-continer">
+            <h1>PASICHAYENNAVANDHUKELU</h1>
+            <h2>....vanga login pannalam....</h2>
+            <form>
+                <label>username:</label>
+                <input type="text" placeholder="enter your name" required>
+                <label>password:
+                </label>
+                <input type="password" placeholder="unga password type pannuga" required>
+                <button type="submit"><p><a href="home.html">ulla polam ma....!</a></p></button>                    
+            </form>
+            <p>Enna account illa ya? <a href="register.html" style="color: #e67e22; font-weight: bold;">seri register pannu</a></p>
+        </div>
+    </body>
+</html>
